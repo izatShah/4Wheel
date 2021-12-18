@@ -10,6 +10,8 @@
 <head>
   <title>4Wheel Car Rental </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<body style="background-color:black;">
+  </body>
 </head>
 
 <body>
@@ -34,31 +36,31 @@
 					     <input type="text" class="form-control" style="color:white" name="custIC" placeholder="Your iC Number"/>
 					   </div>
 					   	<div class="form-group">
-					     <label>Name</label>
+					     <label style="color:white">Name</label>
 					     <input type="text" class="form-control" name="custName" placeholder="Your name"/>
 					   </div>
 					    <div class="form-group">
-					   <label>User Name</label>
+					   <label style="color:white">User Name</label>
 					     <input type="text" class="form-control" name="custUname" placeholder="Your User Name"/>
 					   </div>
 					   <div class="form-group">
-					     <label>Password</label>
+					     <label style="color:white">Password</label>
 					     <input type="password" class="form-control" name="custPassword" placeholder="Your password"/>
 					   </div>
 					   <div class="form-group">
-					     <label>Email</label>
+					     <label style="color:white">Email</label>
 					     <input type="email" class="form-control" name="custEmail" placeholder="Your email"/>
 					   </div>
 					   <div class="form-group">
-					     <label>Phone Number</label>
+					     <label style="color:white">Phone Number</label>
 					     <input type="tel" class="form-control" name="custPhoneNum" placeholder="Your phone number"/>
 					   </div>
 					   <div class="form-group">
-					     <label>Address</label>
+					     <label style="color:white">Address</label>
 					     <textarea type="text" class="form-control" name="custAddress" placeholder="Your address"></textarea>
 					   </div>
 					   <button type="submit" class="btn btn-primary">Submit</button>
-					   <a href="index.jsp" class="btn btn-default">Back</a>
+					   <a href="index.jsp"  style="color:white" class="btn btn-default">Back</a>
 					</form>
                 </div>
 </body>
