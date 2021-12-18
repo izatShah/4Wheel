@@ -36,6 +36,9 @@
                     <h3 class="text-center" style="color:white">List of customer</h3>
                     <hr>
                   
+             <div class="col-md-6">
+         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
+    </div>     
                  
     
 <p></p>
@@ -89,9 +92,7 @@
         %>
          
     </tbody>
-    <div class="col-md-6">
-         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
-    </div>
+    
 </table>
 </div>
 </body>
