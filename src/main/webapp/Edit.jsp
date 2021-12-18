@@ -8,25 +8,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GSS Car Rental</title>
+  <title>4Wheel Car Rental</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
    <header>
-         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #4CAF50">
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-gold: #4CAF50">
          <div>
-            <a href="index.jsp" class="navbar-brand"> GSS Car Rental </a>
+            <a href="index.jsp" class="navbar-brand" style="color:white"> GSS Car Rental </a>
           </div>
          </nav>
-	   
+	   <body style="background-color:black;">
       </header>
             <br>
 			<div class="row">
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center" >View customer Details</h3>
+                    <h3 class="text-center" style="color:white">View customer Details</h3>
                     <hr>
        <%
        
@@ -52,34 +52,34 @@
        %>
             <input type="hidden" name="custIC" value='<%=res.getString("custIC") %>'/>
    			<div class="form-group">
-     			<label>Name</label>
+     			<label style="color:white">Name</label>
      			<input type="text" class="form-control" name="custName" value='<%=res.getString("custName") %>'/>
    			</div>
    			<div class="form-group">
-     			<label>User Name</label>
+     			<label style="color:white">Username</label>
      			<input type="text" class="form-control" name="custUname" value='<%=res.getString("custUname") %>'/>
    			</div>
    			<div class="form-group">
-     			<label>Password</label>
+     			<label style="color:white">Password</label>
      			<input type="password" class="form-control" name="custPassword" value='<%=res.getString("custPassword") %>'/>
    			</div>
    			<div class="form-group">
-     			<label>Email</label>
+     			<label style="color:white">Email</label>
      			<input type="email" class="form-control" name="custEmail" value='<%=res.getString("custEmail") %>'/>
    			</div>
    			<div class="form-group">
-     		<label>Phone Number</label>
+     		<label style="color:white">Phone Number</label>
      		<input type="tel" class="form-control" name="custPhoneNum" value='<%=res.getString("custPhoneNum") %>'/>
    			</div>
    			<div class="form-group">
-     		<label>Address</label>
+     		<label style="color:white">Address</label>
      		<textarea type="text" class="form-control" name="custAddress" value='<%=res.getString("custAddress") %>'/></textarea>
    			</div>
    			<%
             }
    			%>
-   			<button type="submit" class="btn btn-warning">Update</button>
-   			<a href="index.jsp" class="btn btn-default">Back</a>
+   			<button type="submit" class="btn btn-success">Update</button>
+   			<a href="index.jsp" class="btn btn-default" style="color:white">Back</a>
    			</form>
    			</div></div>
    			</body>
