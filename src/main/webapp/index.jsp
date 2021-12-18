@@ -33,12 +33,10 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center" style="color:grey">List of customer</h3>
+                    <h3 class="text-center" style="color:white">List of customer</h3>
                     <hr>
                   
-                   <div class="col-md-6">
-         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
-    </div>
+                 
     
 <p></p>
 <table class="table table-bordered table-striped table-hover">
@@ -91,6 +89,9 @@
         %>
          
     </tbody>
+    <div class="col-md-6">
+         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
+    </div>
 </table>
 </div>
 </body>
