@@ -82,7 +82,7 @@
          <td style="color:white"><%=res.getString("custPhoneNum")%></td>
          <td style="color:white"><%=res.getString("custAddress")%></td>
          <td class="text-center">
-           <a href='Edit.jsp?u=<%=res.getString("custIC")%>' class="btn btn-warning">Edit</a>
+           <a href='Edit.jsp?u=<%=res.getString("custIC")%>' class="btn btn-warning">Update</a>
            <a href='Delete.jsp?d=<%=res.getString("custIC")%>' class="btn btn-danger">Delete</a>
          </td>
         </tr>
