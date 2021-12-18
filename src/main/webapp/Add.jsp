@@ -28,7 +28,7 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center" style="color:white">Add Admin Details</h3>
+                    <h3 class="text-center" style="color:white">Add Customer Details</h3>
                     <hr>
 					<form action="" method="post">
 					   <div class="form-group">
@@ -59,7 +59,7 @@
 					     <label style="color:white">Address</label>
 					     <textarea type="text" class="form-control" name="custAddress" placeholder="Your address"></textarea>
 					   </div>
-					   <button type="submit" class="btn btn-primary">Submit</button>
+					   <button type="submit" class="btn btn-primary">Add</button>
 					   <a href="index.jsp"  style="color:white" class="btn btn-default">Back</a>
 					</form>
                 </div>
