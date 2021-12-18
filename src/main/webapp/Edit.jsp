@@ -19,13 +19,14 @@
             <a href="index.jsp" class="navbar-brand"> GSS Car Rental </a>
           </div>
          </nav>
+	   
       </header>
             <br>
 			<div class="row">
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center">View Admin Details</h3>
+                    <h3 class="text-center" >View customer Details</h3>
                     <hr>
        <%
        
