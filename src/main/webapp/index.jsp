@@ -35,9 +35,7 @@
                 <div class="container">
                     <h3 class="text-center">List of customer</h3>
                     <hr>
-    <div class="col-md-6">
-         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
-    </div>
+    
 <p></p>
 <table class="table table-bordered table-striped table-hover">
    <thead>
@@ -82,6 +80,9 @@
            <a href='Delete.jsp?d=<%=res.getString("custIC")%>' class="btn btn-danger">Delete</a>
          </td>
         </tr>
+      <div class="col-md-6">
+         <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
+    </div>
         <%
        }
         %>
