@@ -15,9 +15,9 @@
 
 <body>
    <header>
-         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #4CAF50">
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #FFFF00">
          <div>
-            <a href="index.jsp" class="navbar-brand"> GSS Car Rental </a>
+            <a href="index.jsp" class="navbar-brand"> 4Wheel Car Rental </a>
           </div>
             </nav>
       </header>
@@ -27,7 +27,7 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center">List of Admin Details</h3>
+                    <h3 class="text-center">List of customer</h3>
                     <hr>
     <div class="col-md-6">
          <a href="Add.jsp" class="btn btn-primary">Add New Data</a>
@@ -37,8 +37,8 @@
    <thead>
        <tr>
          <th>IC Number :</th>
-         <th>Name</th>
-         <th>User Name :</th>
+         <th>Name :</th>
+         <th>Username :</th>
          <th>Password :</th>
          <th>Email</th>
          <th>Phone</th>
