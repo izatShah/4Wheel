@@ -14,7 +14,7 @@
 
 <body>
    <header>
-         <nav class="navbar navbar-expand-md navbar-dark" style="background-gold: #4CAF50">
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: gold">
          <div>
             <a href="index.jsp" class="navbar-brand" style="color:white"> GSS Car Rental </a>
           </div>
