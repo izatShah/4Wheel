@@ -8,15 +8,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GSS MY Car Rental System</title>
+  <title>4Wheel Car Rental </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
    <header>
-         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #4CAF50">
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: gold">
          <div>
-            <a href="index.jsp" class="navbar-brand"> GSS Car Rental </a>
+            <a href="index.jsp" class="navbar-brand" style="color:white"> GSS Car Rental </a>
           </div>
         </nav>
       </header>
@@ -26,12 +26,12 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center">Add Admin Details</h3>
+                    <h3 class="text-center" style="color:white">Add Admin Details</h3>
                     <hr>
 					<form action="" method="post">
 					   <div class="form-group">
-					   <label>IC Number</label>
-					     <input type="text" class="form-control" name="custIC" placeholder="Your iC Number"/>
+					   <label style="color:white">IC Number</label>
+					     <input type="text" class="form-control" style="color:white" name="custIC" placeholder="Your iC Number"/>
 					   </div>
 					   	<div class="form-group">
 					     <label>Name</label>
