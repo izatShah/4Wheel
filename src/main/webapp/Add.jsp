@@ -33,7 +33,7 @@
 					<form action="" method="post">
 					   <div class="form-group">
 					   <label style="color:white">IC Number</label>
-					     <input type="text" class="form-control" style="color:white" name="custIC" placeholder="Your iC Number"/>
+					     <input type="text" class="form-control" name="custIC" placeholder="Your iC Number"/>
 					   </div>
 					   	<div class="form-group">
 					     <label style="color:white">Name</label>
