@@ -33,7 +33,7 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center">List of customer</h3>
+                    <h3 class="text-center" style="color:grey">>List of customer</h3>
                     <hr>
                   
                    <div class="col-md-6">
@@ -43,15 +43,16 @@
 <p></p>
 <table class="table table-bordered table-striped table-hover">
    <thead>
+     
        <tr>
-         <th>IC Number :</th>
-         <th>Name :</th>
-         <th>Username :</th>
-         <th>Password :</th>
-         <th>Email</th>
-         <th>Phone</th>
-         <th>Address</th>
-         <th class="text-center">Action</th>
+         <th style="color:white">IC Number :</th>
+         <th style="color:white">Name :</th>
+         <th style="color:white">Username :</th>
+         <th style="color:white">Password :</th>
+         <th style="color:white">Email</th>
+         <th style="color:white">Phone</th>
+         <th style="color:white">Address</th>
+         <th class="text-center" style="color:white">Action</th>
         </tr>
     </thead>
     <tbody>
