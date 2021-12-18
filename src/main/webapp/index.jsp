@@ -10,12 +10,18 @@
 <html>
 <head>
   <title>GSS Car Rental</title>
+  <style>
+    body {
+    background-color: black;
+    }
+  </style>
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
    <header>
-         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: gold">
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: FFC133">
          <div>
             <center> <a href="index.jsp" class="navbar-brand" style="color:black"> 4Wheel Car Rental </a> </center?
           </div>
