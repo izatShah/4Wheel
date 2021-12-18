@@ -33,7 +33,7 @@
                 <!-- <div class="alert alert-success" *ngIf='message'>{{message}}</div> -->
 
                 <div class="container">
-                    <h3 class="text-center" style="color:grey">>List of customer</h3>
+                    <h3 class="text-center" style="color:grey">List of customer</h3>
                     <hr>
                   
                    <div class="col-md-6">
@@ -45,13 +45,13 @@
    <thead>
      
        <tr>
-         <th style="color:white">IC Number :</th>
-         <th style="color:white">Name :</th>
-         <th style="color:white">Username :</th>
-         <th style="color:white">Password :</th>
-         <th style="color:white">Email</th>
-         <th style="color:white">Phone</th>
-         <th style="color:white">Address</th>
+         <th class="text-center" style="color:white">IC Number</th>
+         <th class="text-center" style="color:white">Name</th>
+         <th class="text-center" style="color:white">Username</th>
+         <th class="text-center" style="color:white">Password</th>
+         <th class="text-center" style="color:white">Email</th>
+         <th class="text-center" style="color:white">Phone</th>
+         <th class="text-center" style="color:white">Address</th>
          <th class="text-center" style="color:white">Action</th>
         </tr>
     </thead>
@@ -73,13 +73,13 @@
        while(res.next()){
        %>
        <tr>
-         <td><%=res.getString("custIC")%></td>
-         <td><%=res.getString("custName")%></td>
-         <td><%=res.getString("custUname")%></td>
-         <td><%=res.getString("custPassword")%></td>
-         <td><%=res.getString("custEmail")%></td>
-         <td><%=res.getString("custPhoneNum")%></td>
-         <td><%=res.getString("custAddress")%></td>
+         <td style="color:white"><%=res.getString("custIC")%></td>
+         <td style="color:white"><%=res.getString("custName")%></td>
+         <td style="color:white"><%=res.getString("custUname")%></td>
+         <td style="color:white"><%=res.getString("custPassword")%></td>
+         <td style="color:white"><%=res.getString("custEmail")%></td>
+         <td style="color:white"><%=res.getString("custPhoneNum")%></td>
+         <td style="color:white"><%=res.getString("custAddress")%></td>
          <td class="text-center">
            <a href='Edit.jsp?u=<%=res.getString("custIC")%>' class="btn btn-warning">Edit</a>
            <a href='Delete.jsp?d=<%=res.getString("custIC")%>' class="btn btn-danger">Delete</a>
